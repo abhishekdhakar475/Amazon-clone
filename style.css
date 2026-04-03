@@ -1,0 +1,401 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.navbar{
+    background-color: #0f1111;
+    height: 70px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.navbar-logo{
+height: 55px;
+width: 150px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.logo{
+    background-image: url("https://assets.upstox.com/content/assets/images/cms/202451/Amazon%20logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 150px;
+    color: white;
+}
+.border{
+    border: 2px solid transparent;
+    
+}
+.border:hover{
+   border: 1.5px solid white;
+}
+/* __________box2_______________ */
+.add-first{
+    color: #cccccc;
+    font-size: 12px;
+    margin-left: 15px;
+}
+.add-second{
+    font-size:15px;
+    margin-left: 3px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+
+}
+/* _____________box3__________ */
+.search{
+    background-color: rgb(245, 150, 7);
+    display: flex;
+    justify-content: space-evenly;
+   width: 620px;
+   height: 40px;
+   border-radius: 4px;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 40px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.search-input{
+    width:100%;
+    font-size: large;
+    border: none;
+    
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    font-size: 1.5rem;
+     border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border: none;
+    color: #0f1111;
+}
+/* _____________box4__________ */
+.nav-flag{
+    display: flex;
+   justify-content: space-around;
+   align-items: center;
+   gap: 2px;
+}
+.flag img{
+    width: 30px;
+    margin-top: 5px;
+   
+}
+/* _____________box5__________ */
+.nav-signin span{
+    font-size: 0.7rem;
+    font: 12px;
+}
+.nav-secound{
+    font-size: 0.85rem;
+    font-weight: 700    ;
+}
+.cart-k{
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cart-k h4{
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+/* ______________Ancer */
+
+.maindiv {
+    width: 100%;
+    background-color: #232f3e;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.ancer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 15px;
+}
+
+/* Menu section */
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: space-evenly;
+}
+
+.menu h4 {
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.menu i {
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* Hover effect */
+.border {
+    padding: 5px 8px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+.festive p{
+    cursor: pointer;
+}
+.abhii{
+    height: 600px;
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/img22/WLA/2025/Uber/Unrec_GW/Updated/D323819370_1500._CB788515770_.jpg");
+    background-size: cover;
+}
+
+/* ________shop_------------ */
+.shop {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -320px;
+}
+
+.box {
+    border-radius: 25px ;
+   border: 1px solid gray;
+    width: 20%;
+
+    background-color: white;
+    padding: 15px;
+    transition: all 0.3s ease;
+
+
+}
+.box:hover{
+
+    background-color:white;
+    transform: translateY(-10px); /* upar uthta hai */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* shadow deta hai */
+}
+
+.box h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    
+}
+
+/* Grid layout */
+.imggg {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+/* Each item */
+.item {
+    text-align: center;
+}
+
+.item img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+}
+
+.item p {
+    font-size: 13px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+/* vedio_______________ */
+.ve{
+    display: flex;
+    align-items: center;
+    height: 330px;
+}
+.ve iframe{
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    width:100%; 
+    height:280px;
+    cursor: pointer;
+}
+.vedioo a{
+    font-weight: 150;
+    
+}
+.vedioo{
+    
+    height: 700px;
+    margin-top: 65px;
+}
+
+/* MAIN FLEX (IMPORTANT) */
+.video-section {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+/* VIDEO LEFT */
+.ve {
+    width: 35%;
+}
+
+.ve video {
+    width: 100%;
+    border-radius: 10px;
+    height: 300px;
+}
+
+/* PRODUCTS RIGHT */
+.product-container {
+    width: 65%;
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+}
+.price{
+    
+    margin-top: 11px;
+}
+
+/* CARD */
+.card {
+    min-width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    background: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.card:hover {
+    transform: translateY(-10px); /* upar uthta hai */
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3); /* shadow */
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: contain;
+    background: #f5f5f5;
+    border-radius: 8px;
+}
+
+.title {
+    font-size: 13px;
+    margin: 8px 0;
+    height: 35px;
+    overflow: hidden;
+}
+
+.discount {
+    background: #cc0c39;
+    color: white;
+    padding: 3px 6px;
+    font-size: 12px;
+}
+
+.deal {
+    color: #cc0c39;
+    font-size: 12px;
+}
+
+.new {
+    font-weight: bold;
+}
+
+.old {
+    text-decoration: line-through;
+    color: gray;
+    font-size: 13px;
+}
+
+
+
+/* ____________fotter________________ */
+
+.footer {
+  background-color: #232f3e;
+  color: white;
+  font-family: Arial, sans-serif;
+  height: 450px;
+ 
+}
+
+/* Top Section */
+.footer-top {
+    height: 250px;
+  display: flex;
+  justify-content: space-around;
+  padding: 60px 20px;
+  margin-top: 70px;
+  
+}
+
+.footer-box {
+  margin: 20px;
+}
+
+.footer-box h3 {
+  margin-bottom: 35px;
+  font-size: 16px;
+}
+
+.footer-box a {
+  display: block;
+  color: #ddd;
+  text-decoration: none;
+  margin: 6px 0;
+  font-size: 14px;
+}
+
+.footer-box a:hover {
+  text-decoration: underline;
+}
+
+/* Middle Section */
+.footer-middle {
+  text-align: center;
+  border-top: 1px solid #3a4553;
+  padding: 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #f90;
+}
+
+/* Bottom Section */
+.footer-bottom {
+  text-align: center;
+  background-color: #131a22;
+  padding: 15px;
+  font-size: 13px;
+}
+.product-containerr {
+    width: 65%;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    margin-top: 35px;
+   
+}
+
+
+
+
